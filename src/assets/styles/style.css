@@ -105,7 +105,7 @@ body {
   background-color: #000;
 }
 
-.winning-message {
+.winning-message-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -120,7 +120,7 @@ body {
   flex-direction: column;
 }
 
-.winning-message button {
+.winning-message-modal button {
   font-size: 2rem;
   background-color: #fff;
   border: 1px solid #000;
@@ -128,12 +128,12 @@ body {
   cursor: pointer;
 }
 
-.winning-message button:hover {
+.winning-message-modal button:hover {
   background-color: #000;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.winning-message.show {
+.winning-message-modal.show {
   display: flex;
 }
